@@ -3,6 +3,7 @@ package adapter.coffee;
 import adapter.coffee.coffee_machine.CoffeeMachine;
 import adapter.coffee.coffee_machine.CoffeeMachineAdapter;
 import adapter.coffee.coffee_machine.CoffeeMachineInheritedAdapter;
+import adapter.coffee.fridge.Fridge;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,9 +12,5 @@ public class Main {
         //niedozwolone!
        // kitchen.addDevice(new CoffeeMachine());
 
-        kitchen.addDevice(new CoffeeMachineAdapter(new CoffeeMachine()));
-        //lub:
-        kitchen.addDevice(new CoffeeMachineInheritedAdapter());
-        kitchen.turnEverythingOn();
     }
 }

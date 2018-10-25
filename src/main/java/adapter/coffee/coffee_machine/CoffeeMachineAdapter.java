@@ -5,8 +5,8 @@ import adapter.coffee.device.KitchenDevice;
 public class CoffeeMachineAdapter implements KitchenDevice {
     private CoffeeMachine coffeeMachine;
 
-    public CoffeeMachineAdapter(CoffeeMachine coffeMachine) {
-        this.coffeeMachine = coffeMachine;
+    public CoffeeMachineAdapter(CoffeeMachine coffeeMachine) {
+        this.coffeeMachine = coffeeMachine;
     }
 
     public void turnDeviceOn() {

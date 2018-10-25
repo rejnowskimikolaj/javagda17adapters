@@ -1,4 +1,4 @@
-package adapter.coffee.device;
+package adapter.coffee.fridge;
 
 public class Fridge {
     public void switchOn(){

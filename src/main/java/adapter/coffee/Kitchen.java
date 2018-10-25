@@ -1,7 +1,5 @@
 package adapter.coffee;
 
-import adapter.coffee.coffee_machine.CoffeeMachine;
-import adapter.coffee.coffee_machine.CoffeeMachineAdapter;
 import adapter.coffee.device.KitchenDevice;
 
 import java.util.ArrayList;
